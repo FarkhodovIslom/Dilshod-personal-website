@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Dilshod Zayniddinov — Freelance Developer",
+    "description": "Professional portfolio of Dilshod Zayniddinov. Web development, mobile apps, Telegram bots, Mini Apps, and web design."
+  },
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "estimator": "Estimator",
+    "process": "Process",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Dilshod Zayniddinov",
+    "tagline": "I build web apps, mobile solutions, Telegram bots, Mini Apps, and beautiful interfaces.",
+    "ctaPrimary": "Write to me",
+    "ctaSecondary": "View projects"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "What I can do for you",
+    "items": {
+      "web": {
+        "title": "Web Development",
+        "description": "Modern web applications using React, Next.js, and TypeScript. Responsive, fast, and scalable."
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Cross-platform mobile apps for iOS and Android using React Native and Flutter."
+      },
+      "bot": {
+        "title": "Telegram Bots",
+        "description": "Custom Telegram bots for automation, user interaction, and business processes."
+      },
+      "miniApp": {
+        "title": "Mini Apps",
+        "description": "Telegram Mini Apps — full-featured web apps inside Telegram with native feel."
+      },
+      "design": {
+        "title": "Web Design",
+        "description": "Clean, modern UI/UX design with attention to detail and user experience."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "My recent work",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "bot": "Telegram Bots",
+      "miniApp": "Mini Apps",
+      "design": "Design"
+    },
+    "card": {
+      "viewDetails": "View details",
+      "duration": "Duration"
+    },
+    "modal": {
+      "architecture": "Architecture",
+      "challenges": "Challenges Solved",
+      "stack": "Tech Stack",
+      "close": "Close"
+    }
+  },
+  "estimator": {
+    "title": "Cost Estimator",
+    "subtitle": "Get a rough idea of your project's budget and timeline",
+    "step1": {
+      "title": "Project Type",
+      "subtitle": "Select the type of project you need",
+      "types": {
+        "web": "Website / Web App",
+        "mobile": "Mobile App",
+        "bot": "Telegram Bot",
+        "miniApp": "Mini App",
+        "design": "Design"
+      }
+    },
+    "step2": {
+      "title": "Features",
+      "subtitle": "Select additional features",
+      "features": {
+        "auth": "User Authentication",
+        "payments": "Payment System",
+        "realtime": "Real-time Updates",
+        "i18n": "Multi-language Support",
+        "admin": "Admin Panel",
+        "analytics": "Analytics & Reports",
+        "seo": "SEO Optimization",
+        "deploy": "Cloud Deployment"
+      }
+    },
+    "step3": {
+      "title": "Result",
+      "priceRange": "Estimated Price",
+      "timeline": "Estimated Timeline",
+      "breakdown": "Price Breakdown",
+      "base": "Base price",
+      "feature": "Feature",
+      "weeks": "weeks",
+      "orderNow": "Order Now"
+    },
+    "progress": "Step {current} of {total}",
+    "next": "Next",
+    "back": "Back"
+  },
+  "process": {
+    "title": "How I Work",
+    "subtitle": "Transparent and efficient process",
+    "steps": {
+      "1": {
+        "title": "Communication & Audit",
+        "description": "We discuss your project via Telegram. I analyze requirements and provide initial feedback."
+      },
+      "2": {
+        "title": "Proposal & Plan",
+        "description": "I prepare a detailed proposal with timeline, tech stack, and cost breakdown."
+      },
+      "3": {
+        "title": "Development",
+        "description": "Step-by-step development with regular updates and demos at each milestone."
+      },
+      "4": {
+        "title": "Delivery & Support",
+        "description": "Final delivery, deployment, and ongoing support to ensure everything runs smoothly."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's discuss your project",
+    "fields": {
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "contact": "Contact (Telegram or Email)",
+      "contactPlaceholder": "@username or email@example.com",
+      "projectType": "Project Type",
+      "projectTypePlaceholder": "Select project type",
+      "message": "Project Description",
+      "messagePlaceholder": "Describe your project, goals, and any specific requirements..."
+    },
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "error": "Something went wrong. Please try again later.",
+    "validation": {
+      "nameRequired": "Name is required",
+      "contactRequired": "Contact information is required",
+      "messageRequired": "Project description is required"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with care"
+  }
+}
