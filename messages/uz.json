@@ -1,159 +1,215 @@
 {
   "meta": {
-    "title": "Dilshod Zayniddinov — Freelance Dasturchi",
-    "description": "Dilshod Zayniddinovning kasbiy portfeli. Veb-dasturlash, mobil ilovalar, Telegram botlari, Mini App'lar va veb-dizayn."
+    "title": "Dilshod Zayniddinov — Full-Stack va Telegram Ekotizim Muhendisi",
+    "description": "Yuqori unumdorlikka ega veb-ilovalar, kross-platformali mobil ilovalar, Telegram Mini App'lar va kengaytiriladigan server arxitekturasini ishlab chiqish."
   },
   "nav": {
+    "about": "Men haqimda",
     "services": "Xizmatlar",
     "projects": "Loyihalar",
-    "estimator": "Narx hisoblash",
+    "estimator": "Hisoblash",
     "process": "Jarayon",
+    "faq": "Savollar",
     "contact": "Aloqa"
   },
   "hero": {
     "greeting": "Salom, men",
-    "name": "Dilshod Zayniddinov",
-    "tagline": "Veb-ilovalar, mobil yechimlar, Telegram botlari, Mini App'lar va chiroyli interfeyslar yarataman.",
-    "ctaPrimary": "Yozing",
-    "ctaSecondary": "Loyihalarni ko'rish"
+    "name": "Dilshod Zaynitdinov",
+    "tagline": "Next.js, React Native hamda Telegram Mini App'lar boʻyicha Full-Stack dasturchi.",
+    "ctaPrimary": "Loyihani boshlash",
+    "ctaSecondary": "Portfolio bilan tanishish"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "subtitle": "Zamonaviy raqamli mahsulotlarni aniqlik, tezlik va yuqori sifat bilan yarataman",
+    "text": "Startaplar va biznes egalariga kengayuvchan veb-saytlar, Telegram ekotizimlari va mobil ilovalar yaratishda yordam beraman. Asosiy e'tiborim: toza koding arxitekturasi, silliq UX va biznes natijalari.",
+    "techTitle": "Texnologiyalar steki"
   },
   "services": {
     "title": "Xizmatlar",
-    "subtitle": "Men nima qila olaman",
+    "subtitle": "Biznesingiz uchun toʻliq dasturiy tizimlar",
     "items": {
       "web": {
         "title": "Veb-dasturlash",
-        "description": "React, Next.js va TypeScript yordamida zamonaviy veb-ilovalar. Moslashuvchan, tez va kengaytiriladigan."
+        "description": "Next.js va TypeScript yordamida yaratilgan tezkor va kengaytiriladigan veb-ilovalar. Yuqori tezlik, SEO va maksimal konversiya uchun optimallashtirilgan."
       },
       "mobile": {
-        "title": "Mobil dasturlash",
-        "description": "React Native va Flutter yordamida iOS va Android uchun kross-platformali mobil ilovalar."
+        "title": "Mobil ilovalar",
+        "description": "React Native va Flutter texnologiyalarida iOS va Android uchun kross-platformali ilovalar. Silliq 60fps UI va ishonchli offline-arxitektura."
       },
       "bot": {
-        "title": "Telegram botlari",
-        "description": "Avtomatlashtirish, foydalanuvchilar bilan o'zaro ta'sir va biznes jarayonlari uchun Telegram botlari."
+        "title": "Telegram botlar va avtomatlashtirish",
+        "description": "CRM tizimlari, to'lov tizimlari va ichki biznes jarayonlari bilan integratsiya qilingan murakkab Telegram botlari."
       },
       "miniApp": {
-        "title": "Mini App'lar",
-        "description": "Telegram Mini App'lar — Telegram ichidagi to'liq veb-ilovalar, tabiiy his bilan."
+        "title": "Telegram Mini App'lar (TMA)",
+        "description": "Telegram platformasi ichida ishlaydigan, mobil ilovalarga xos qulay interfeys va to'lov tizimiga ega zamonaviy veb-ilovalar."
       },
       "design": {
-        "title": "Veb-dizayn",
-        "description": "Tafsilotlarga e'tibor bilan toza, zamonaviy UI/UX dizayn."
+        "title": "UI/UX va Mahsulot Dizayni",
+        "description": "Foydalanuvchilarni ushlab qoluvchi va qulaylikka yo'naltirilgan zamonaviy interfeys dizayni va Figma prototiplari."
       }
     }
   },
   "projects": {
-    "title": "Loyihalar",
-    "subtitle": "Mening so'nggi ishlarim",
+    "title": "Tanlangan loyihalar",
+    "subtitle": "Saralangan loyihalar va natijalar",
     "filters": {
       "all": "Barchasi",
-      "web": "Veb",
+      "web": "Veb-ilovalar",
       "mobile": "Mobil",
-      "bot": "Telegram botlari",
+      "bot": "Telegram botlar",
       "miniApp": "Mini App'lar",
-      "design": "Dizayn"
+      "design": "UI/UX Dizayn"
     },
     "card": {
-      "viewDetails": "Batafsil",
+      "viewDetails": "Batafsil ko'rish",
       "duration": "Muddat"
     },
     "modal": {
-      "architecture": "Arxitektura",
-      "challenges": "Hal qilingan muammolar",
-      "stack": "Texnologiyalar",
+      "architecture": "Tizim arxitekturasi",
+      "challenges": "Hal qilingan texnik muammolar",
+      "stack": "Ishlatilgan texnologiyalar",
       "close": "Yopish"
     }
   },
   "estimator": {
-    "title": "Narx hisoblash",
-    "subtitle": "Loyihangizning taxminiy byudjeti va muddatini bilib oling",
+    "title": "Loyiha narxini hisoblash",
+    "subtitle": "Loyihangizning taxminiy byudjeti va muddatini shaffof ravishda bilib oling",
     "step1": {
       "title": "Loyiha turi",
-      "subtitle": "Qaysi turdagi loyiha kerakligini tanlang",
+      "subtitle": "Asosiy platformani tanlang",
       "types": {
         "web": "Veb-sayt / Veb-ilova",
-        "mobile": "Mobil ilova",
-        "bot": "Telegram boti",
-        "miniApp": "Mini App",
-        "design": "Dizayn"
+        "mobile": "Mobil ilova (iOS & Android)",
+        "bot": "Telegram boti / Avtomatlashtirish",
+        "miniApp": "Telegram Mini App (TMA)",
+        "design": "UI/UX Dizayn va Prototip"
       }
     },
     "step2": {
-      "title": "Qo'shimcha funksiyalar",
-      "subtitle": "Qo'shimcha funksiyalarni tanlang",
+      "title": "Texnik imkoniyatlar",
+      "subtitle": "Kerakli qo'shimcha modullarni tanlang",
       "features": {
-        "auth": "Foydalanuvchi autentifikatsiyasi",
-        "payments": "To'lov tizimi",
-        "realtime": "Real-vaqtdagi yangilanishlar",
-        "i18n": "Ko'p tillilik",
-        "admin": "Admin paneli",
-        "analytics": "Analitika va hisobotlar",
-        "seo": "SEO optimallashtirish",
-        "deploy": "Cloud joylashtirish"
+        "auth": "Foydalanuvchilar autentifikatsiyasi (OAuth)",
+        "payments": "To'lov tizimlari integratsiyasi",
+        "realtime": "Real-vaqtdagi yangilanishlar (WebSockets)",
+        "i18n": "Ko'p tillilik (i18n)",
+        "admin": "Admin paneli / CMS",
+        "analytics": "Analitika va hisobotlar paneli",
+        "seo": "Mukammal SEO va OpenGraph",
+        "deploy": "Serverga joylashtirish va CI/CD"
       }
     },
     "step3": {
       "title": "Natija",
-      "priceRange": "Taxminiy narx",
-      "timeline": "Taxminiy muddat",
-      "breakdown": "Narxlar tahlili",
-      "base": "Asosiy narx",
-      "feature": "Funksiya",
+      "priceRange": "Taxminiy byudjet",
+      "timeline": "Taxminiy topshirish muddati",
+      "breakdown": "Xarajatlar tahlili",
+      "base": "Asosiy arxitektura",
+      "feature": "Qo'shimcha modul",
       "weeks": "hafta",
-      "orderNow": "Buyurtma berish"
+      "orderNow": "Batafsil tijorat taklifini olish"
     },
     "progress": "{current} / {total} qadam",
     "next": "Keyingisi",
     "back": "Orqaga"
   },
   "process": {
-    "title": "Qanday ishlayman",
-    "subtitle": "Oshkora va samarali jarayon",
+    "title": "Ishlash jarayoni",
+    "subtitle": "Shaffof, bosqichma-bosqich va natijaga yo'naltirilgan tartib",
     "steps": {
       "1": {
-        "title": "Muloqot va audit",
-        "description": "Loyihangizni Telegram orqali muhokama qilamiz. Talablarni tahlil qilaman va dastlabki javob beraman."
+        "title": "Tahlil va Texnik Audit",
+        "description": "Telegram, Email yoki Google Meet orqali loyiha maqsadlari va talablarini atroflicha tahlil qilib, aniq reja tuzamiz."
       },
       "2": {
-        "title": "Taklif va reja",
-        "description": "Muddat, texnologiyalar va narxlar tahlili bilan batafsil taklif tayyorlayman."
+        "title": "Texnik Topshiriq va Smeta",
+        "description": "Aniq topshirish muddati, texnologiyalar steki va belgilangan narx ko'rsatilgan taklif hujjatini tayyorlayman."
       },
       "3": {
-        "title": "Ishlab chiqish",
-        "description": "Har bir bosqichda muntazam yangilanishlar va demonstratsiyalar bilan bosqichma-bosqich ishlab chiqish."
+        "title": "Agile Dasturlash",
+        "description": "Har bir bosqich yakunida oraliq natijalarni ko'rsatish bilan toza va modul uslubida koding jarayoni."
       },
       "4": {
-        "title": "Topshirish va qo'llab-quvvatlash",
-        "description": "Yakuniy topshirish, joylashtirish va hamma narsaning silliq ishlashini ta'minlash uchun qo'llab-quvvatlash."
+        "title": "Topshirish va 30 Kunlik Kafolat",
+        "description": "Serverga joylashtirish, loyihani to'liq topshirish va 30 kunlik bepul kafolatli texnik qo'llab-quvvatlash."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Mijozlar fikri",
+    "subtitle": "Hamkorlarimiz birgalikdagi ish va erishilgan natijalar haqida nima deydi",
+    "items": {
+      "1": {
+        "quote": "Dilshod Telegram Mini App loyihamizni belgilangan muddatdan oldin topshirdi. Koding arxitekturasi va aloqa juda yuqori darajada.",
+        "author": "Javohir Toshpulotov",
+        "role": "E-Commerce loyihasi asoschisi"
+      },
+      "2": {
+        "quote": "Startapimiz uchun Next.js va Stripe integratsiyasi bilan veb-platforma yaratib berdi. Sayt yuklanish hizi va SEO ko'rsatkichlari 2 baravarga yaxshilandi.",
+        "author": "Sardor Karimov",
+        "role": "SaaS Platform Product Owner"
+      },
+      "3": {
+        "quote": "Murakkab CRM va to'lov tizimiga ega Telegram botimizni nolga teng xatoliklar bilan ishga tushirib berdi. Dasturchining texnik va B2B tushunchasi yuqori.",
+        "author": "Farrux Mirzayev",
+        "role": "Logistika kompaniyasi direktori"
+      },
+      "4": {
+        "quote": "React Native'dagi mobil ilovamiz arxitekturasini qayta ko'rib chiqdi va animatsiyalarni 60fps darajasiga olib chiqdi. UI/UX va ijro sifati a'lo!",
+        "author": "Elena Smirnova",
+        "role": "FinTech loyiha menejeri"
+      }
+    }
+  },
+  "faq": {
+    "title": "Ko'p beriladigan savollar",
+    "subtitle": "Ishni boshlashdan oldin barcha muhim savollarga aniq javoblar",
+    "items": {
+      "1": {
+        "q": "Maxfiylik kelishuvini (NDA) imzolaysizmi?",
+        "a": "Ha. Loyihani boshlashdan oldin har doim standart NDA (Maxfiylik shartnomasi) imzolaymiz."
+      },
+      "2": {
+        "q": "Loyiha topshirilgandan keyin qo'llab-quvvatlash bormi?",
+        "a": "Har bir loyihaga 30 kunlik bepul texnik kafolat va tizimni optimallashtirish xizmati kiradi. Loyiha topshirilgach, uzoq muddatli qo'llab-quvvatlash (maintenance) shartnomasini ham tuzishimiz mumkin."
+      },
+      "3": {
+        "q": "To'lov tartibi qanday amalga oshiriladi?",
+        "a": "To'lov bosqichma-bosqich amalga oshiriladi (asosan 50% oldindan to'lov va 50% loyiha to'liq topshirilgandan so'ng), bu ikkala taraf uchun ham maksimal xavfsizlikni ta'minlaydi."
+      },
+      "4": {
+        "q": "Loyiha kodi va mualliflik huquqlari kimda qoladi?",
+        "a": "To'liq sizda. Yakuniy to'lov amalga oshirilgach, dastur kodi, GitHub repozitoriyasi va barcha mualliflik huquqlari to'liq sizga topshiriladi."
       }
     }
   },
   "contact": {
-    "title": "Bog'laning",
-    "subtitle": "Loyihangizni muhokama qilaylik",
+    "title": "Biznesingizni yangi bosqichga olib chiqamiz",
+    "subtitle": "Yangi gʻoyangiz bormi yoki amaldagi tizimni kengaytirmoqchimisiz? Loyihangiz haqida yozing, 24 soat ichida siz bilan bog'lanamiz.",
     "fields": {
       "name": "Ismingiz",
-      "namePlaceholder": "Ismingizni kiriting",
-      "contact": "Aloqa (Telegram yoki Email)",
-      "contactPlaceholder": "@username yoki email@example.com",
-      "projectType": "Loyiha turi",
-      "projectTypePlaceholder": "Loyiha turini tanlang",
-      "message": "Loyiha tavsifi",
-      "messagePlaceholder": "Loyihangizni, maqsadlaringizni va maxsus talablaringizni tasvirlab bering..."
+      "namePlaceholder": "Ali Valiyev",
+      "contact": "Aloqa ma'lumoti",
+      "contactPlaceholder": "@telegram_username yoki +998 90 123 45 67",
+      "projectType": "Loyiha yo'nalishi",
+      "projectTypePlaceholder": "Yo'nalishni tanlang",
+      "message": "Loyiha haqida (Brief)",
+      "messagePlaceholder": "Loyihangiz maqsadi, kutilayotgan muddat va asosiy talablar haqida yozing..."
     },
-    "submit": "Xabar yuborish",
+    "submit": "So'rov yuborish",
     "sending": "Yuborilmoqda...",
-    "success": "Xabar muvaffaqiyatli yuborildi! Tez orada sizga javob beraman.",
-    "error": "Xatolik yuz berdi. Keyinroq qayta urinib ko'ring.",
+    "success": "Xabar qabul qilindi! 24 soat ichida siz bilan bog'lanaman.",
+    "error": "Xatolik yuz berdi. Iltimos, Telegram yoki Email orqali to'g'ridan-to me yozing.",
     "validation": {
-      "nameRequired": "Ism kiritish shart",
-      "contactRequired": "Aloqa ma'lumotlari shart",
-      "messageRequired": "Loyiha tavsifi shart"
+      "nameRequired": "Ismingizni kiriting",
+      "contactRequired": "Aloqa ma'lumotlarini kiriting",
+      "messageRequired": "Loyiha haqida ma'lumot bering"
     }
   },
   "footer": {
     "rights": "Barcha huquqlar himoyalangan.",
-    "madeWith": "G'amxo'rlik bilan yaratilgan"
+    "madeWith": "Maksimal natija va yuqori samaradorlik"
   }
 }

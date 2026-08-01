@@ -6,6 +6,7 @@ import {estimate} from '@/lib/estimator';
 import {projectTypes, features} from '@/data/estimator';
 import Button from '@/components/ui/Button';
 import Section from '@/components/ui/Section';
+import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function Estimator() {
   const t = useTranslations('estimator');
@@ -30,14 +31,16 @@ export default function Estimator() {
 
   return (
     <Section id="estimator">
-      <div className="mb-12 text-center">
-        <h2 className="text-3xl font-bold text-[var(--text-primary)]">
-          {t('title')}
-        </h2>
-        <p className="mt-2 text-[var(--text-secondary)]">{t('subtitle')}</p>
-      </div>
+      <ScrollReveal direction="up" delay={0}>
+        <div className="mb-12 text-center">
+          <h2 className="text-3xl font-bold text-[var(--text-primary)]">
+            {t('title')}
+          </h2>
+          <p className="mt-2 text-[var(--text-secondary)]">{t('subtitle')}</p>
+        </div>
+      </ScrollReveal>
 
-      <div className="mx-auto max-w-2xl">
+      <ScrollReveal direction="up" delay={100} className="mx-auto max-w-2xl">
         <div className="mb-8 flex items-center justify-center gap-2">
           {[1, 2, 3].map((s) => (
             <div key={s} className="flex items-center gap-2">
@@ -74,7 +77,7 @@ export default function Estimator() {
                 <button
                   key={pt.key}
                   onClick={() => setProjectType(pt.key)}
-                  className={`rounded-xl border p-4 text-left transition-colors ${
+                  className={`cursor-pointer rounded-xl border p-4 text-left transition-colors ${
                     projectType === pt.key
                       ? 'border-[var(--accent)] bg-[var(--accent-muted)]'
                       : 'border-[var(--border-default)] bg-[var(--bg-elevated)] hover:border-[var(--border-hover)]'
@@ -110,7 +113,7 @@ export default function Estimator() {
                 <button
                   key={feature.key}
                   onClick={() => toggleFeature(feature.key)}
-                  className={`flex items-center gap-3 rounded-xl border p-4 text-left transition-colors ${
+                  className={`cursor-pointer flex items-center gap-3 rounded-xl border p-4 text-left transition-colors ${
                     selectedFeatures.includes(feature.key)
                       ? 'border-[var(--accent)] bg-[var(--accent-muted)]'
                       : 'border-[var(--border-default)] bg-[var(--bg-elevated)] hover:border-[var(--border-hover)]'
@@ -213,7 +216,7 @@ export default function Estimator() {
             </div>
           </div>
         )}
-      </div>
+      </ScrollReveal>
     </Section>
   );
 }

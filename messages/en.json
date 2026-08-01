@@ -1,159 +1,215 @@
 {
   "meta": {
-    "title": "Dilshod Zayniddinov — Freelance Developer",
-    "description": "Professional portfolio of Dilshod Zayniddinov. Web development, mobile apps, Telegram bots, Mini Apps, and web design."
+    "title": "Dilshod Zayniddinov — Full-Stack & Telegram Ecosystem Engineer",
+    "description": "Engineering high-performance web applications, cross-platform mobile apps, Telegram Mini Apps, and scalable backend infrastructure."
   },
   "nav": {
+    "about": "About",
     "services": "Services",
     "projects": "Projects",
-    "estimator": "Estimator",
+    "estimator": "Cost Estimator",
     "process": "Process",
+    "faq": "FAQ",
     "contact": "Contact"
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "name": "Dilshod Zayniddinov",
-    "tagline": "I build web apps, mobile solutions, Telegram bots, Mini Apps, and beautiful interfaces.",
-    "ctaPrimary": "Write to me",
-    "ctaSecondary": "View projects"
+    "name": "Dilshod Zaynitdinov",
+    "tagline": "Full-Stack Engineer specialized in Next.js, React Native, and Telegram Mini Apps.",
+    "ctaPrimary": "Start a Project",
+    "ctaSecondary": "Browse Portfolio"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Engineering modern digital products with speed, precision, and scalability",
+    "text": "I help startups and business founders build high-performance web products, Telegram ecosystems, and mobile applications. Focused on clean architecture, seamless user experience, and measurable business growth.",
+    "techTitle": "Core Tech Stack"
   },
   "services": {
     "title": "Services",
-    "subtitle": "What I can do for you",
+    "subtitle": "Complete Software Systems for Your Business",
     "items": {
       "web": {
-        "title": "Web Development",
-        "description": "Modern web applications using React, Next.js, and TypeScript. Responsive, fast, and scalable."
+        "title": "Web Application Development",
+        "description": "Scalable, production-ready web applications built with Next.js, React, and TypeScript. Optimized for high speed, SEO, and maximum conversion rates."
       },
       "mobile": {
-        "title": "Mobile Development",
-        "description": "Cross-platform mobile apps for iOS and Android using React Native and Flutter."
+        "title": "Cross-Platform Mobile Apps",
+        "description": "Native-performing iOS and Android applications developed with React Native and Flutter. Smooth 60fps UI with offline-first capabilities."
       },
       "bot": {
-        "title": "Telegram Bots",
-        "description": "Custom Telegram bots for automation, user interaction, and business processes."
+        "title": "Telegram Bots & Automation",
+        "description": "High-load custom Telegram bots integrated with CRM platforms, automated payment gateways, and backend business logic."
       },
       "miniApp": {
-        "title": "Mini Apps",
-        "description": "Telegram Mini Apps — full-featured web apps inside Telegram with native feel."
+        "title": "Telegram Mini Apps (TMA)",
+        "description": "Full-featured web applications embedded directly inside Telegram featuring native-like UI, instant wallet/auth integration, and high engagement."
       },
       "design": {
-        "title": "Web Design",
-        "description": "Clean, modern UI/UX design with attention to detail and user experience."
+        "title": "UI/UX & Digital Product Design",
+        "description": "User-centric interface design, wireframing, and interactive Figma prototypes designed for high user retention and accessibility."
       }
     }
   },
   "projects": {
-    "title": "Projects",
-    "subtitle": "My recent work",
+    "title": "Featured Projects",
+    "subtitle": "Featured Projects & Case Studies",
     "filters": {
       "all": "All",
-      "web": "Web",
+      "web": "Web Apps",
       "mobile": "Mobile",
       "bot": "Telegram Bots",
       "miniApp": "Mini Apps",
-      "design": "Design"
+      "design": "UI/UX Design"
     },
     "card": {
-      "viewDetails": "View details",
-      "duration": "Duration"
+      "viewDetails": "View Case Study",
+      "duration": "Timeline"
     },
     "modal": {
-      "architecture": "Architecture",
-      "challenges": "Challenges Solved",
-      "stack": "Tech Stack",
+      "architecture": "System Architecture",
+      "challenges": "Key Technical Challenges Solved",
+      "stack": "Technologies Used",
       "close": "Close"
     }
   },
   "estimator": {
-    "title": "Cost Estimator",
-    "subtitle": "Get a rough idea of your project's budget and timeline",
+    "title": "Project Cost Estimator",
+    "subtitle": "Get a transparent estimate of your project's budget and timeline",
     "step1": {
-      "title": "Project Type",
-      "subtitle": "Select the type of project you need",
+      "title": "Project Scope",
+      "subtitle": "Select the primary platform for your product",
       "types": {
-        "web": "Website / Web App",
-        "mobile": "Mobile App",
-        "bot": "Telegram Bot",
-        "miniApp": "Mini App",
-        "design": "Design"
+        "web": "Website / Web Application",
+        "mobile": "Mobile Application (iOS & Android)",
+        "bot": "Telegram Bot / Automation",
+        "miniApp": "Telegram Mini App (TMA)",
+        "design": "UI/UX Design & Prototyping"
       }
     },
     "step2": {
-      "title": "Features",
-      "subtitle": "Select additional features",
+      "title": "Core Modules & Features",
+      "subtitle": "Choose additional technical capabilities required",
       "features": {
-        "auth": "User Authentication",
-        "payments": "Payment System",
-        "realtime": "Real-time Updates",
-        "i18n": "Multi-language Support",
-        "admin": "Admin Panel",
-        "analytics": "Analytics & Reports",
-        "seo": "SEO Optimization",
-        "deploy": "Cloud Deployment"
+        "auth": "User Authentication & OAuth",
+        "payments": "Payment Gateway Integration",
+        "realtime": "Real-Time Updates (WebSockets)",
+        "i18n": "Multi-Language Support (i18n)",
+        "admin": "Custom Admin Panel / CMS",
+        "analytics": "Analytics & Reporting Dashboard",
+        "seo": "Advanced SEO & OpenGraph",
+        "deploy": "Cloud Infrastructure & CI/CD Deployment"
       }
     },
     "step3": {
-      "title": "Result",
-      "priceRange": "Estimated Price",
-      "timeline": "Estimated Timeline",
-      "breakdown": "Price Breakdown",
-      "base": "Base price",
-      "feature": "Feature",
+      "title": "Estimated Overview",
+      "priceRange": "Estimated Investment",
+      "timeline": "Estimated Delivery Time",
+      "breakdown": "Cost Breakdown",
+      "base": "Core Architecture",
+      "feature": "Additional Module",
       "weeks": "weeks",
-      "orderNow": "Order Now"
+      "orderNow": "Request Detailed Proposal"
     },
     "progress": "Step {current} of {total}",
-    "next": "Next",
+    "next": "Continue",
     "back": "Back"
   },
   "process": {
-    "title": "How I Work",
-    "subtitle": "Transparent and efficient process",
+    "title": "Engineering Process",
+    "subtitle": "Transparent, agile, and milestone-driven execution",
     "steps": {
       "1": {
-        "title": "Communication & Audit",
-        "description": "We discuss your project via Telegram. I analyze requirements and provide initial feedback."
+        "title": "Discovery & Architecture Audit",
+        "description": "We analyze your project goals and technical specifications via Telegram, Email, or Google Meet to establish a rock-solid roadmap."
       },
       "2": {
-        "title": "Proposal & Plan",
-        "description": "I prepare a detailed proposal with timeline, tech stack, and cost breakdown."
+        "title": "Technical Proposal & Specification",
+        "description": "I prepare a clear specification document outlining the architecture, exact deliverables, fixed price, and timeline."
       },
       "3": {
-        "title": "Development",
-        "description": "Step-by-step development with regular updates and demos at each milestone."
+        "title": "Agile Sprint Development",
+        "description": "Clean, modular code development with regular milestone demos and live preview deployments."
       },
       "4": {
-        "title": "Delivery & Support",
-        "description": "Final delivery, deployment, and ongoing support to ensure everything runs smoothly."
+        "title": "Deployment & 30-Day Support",
+        "description": "Seamless production launch, cloud deployment, complete code handover, and 30 days of post-launch technical warranty."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Client Feedback",
+    "subtitle": "What business founders and partners say about our collaboration",
+    "items": {
+      "1": {
+        "quote": "Dilshod engineered our Telegram Mini App ahead of deadline. Clean code architecture, flawless UI response, and great communication.",
+        "author": "Javohir Toshpulotov",
+        "role": "E-Commerce Founder"
+      },
+      "2": {
+        "quote": "He built a scalable Next.js web platform with Stripe integration for our startup. Site speed and SEO scores doubled right after launch.",
+        "author": "Sardor Karimov",
+        "role": "SaaS Product Owner"
+      },
+      "3": {
+        "quote": "Delivered a complex Telegram bot integrated with our internal CRM and payment systems with zero critical bugs. Exceptional technical expertise.",
+        "author": "Farrux Mirzayev",
+        "role": "Logistics Operations Director"
+      },
+      "4": {
+        "quote": "Refactored our React Native mobile app architecture and achieved butter-smooth 60fps animations. Outstanding UI/UX attention to detail.",
+        "author": "Elena Smirnova",
+        "role": "FinTech Project Manager"
+      }
+    }
+  },
+  "faq": {
+    "title": "What Clients Say",
+    "subtitle": "Answers to common questions before starting a project",
+    "items": {
+      "1": {
+        "q": "Do you sign Non-Disclosure Agreements (NDAs)?",
+        "a": "Yes. We always sign a standard NDA before starting any project."
+      },
+      "2": {
+        "q": "What happens after the project is launched?",
+        "a": "Every project includes 30 days of complimentary technical warranty and system optimization. Ongoing monthly maintenance and support retainers are also available."
+      },
+      "3": {
+        "q": "How are project payments structured?",
+        "a": "Payment is milestone-based (typically 50% upfront to start work and 50% upon final launch and sign-off), ensuring full transparency and security for both parties."
+      },
+      "4": {
+        "q": "Will I own the source code and intellectual property?",
+        "a": "Yes, 100%. Upon final payment, full ownership of the source code, repositories, licenses, and intellectual property rights are completely transferred to you."
       }
     }
   },
   "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Let's discuss your project",
+    "title": "Let's Scale Your Business",
+    "subtitle": "Have a new idea or looking to scale an existing system? Tell us about your project, and we will get back to you within 24 hours.",
     "fields": {
       "name": "Your Name",
-      "namePlaceholder": "Enter your name",
-      "contact": "Contact (Telegram or Email)",
-      "contactPlaceholder": "@username or email@example.com",
-      "projectType": "Project Type",
-      "projectTypePlaceholder": "Select project type",
-      "message": "Project Description",
-      "messagePlaceholder": "Describe your project, goals, and any specific requirements..."
+      "namePlaceholder": "John Doe",
+      "contact": "Contact Details",
+      "contactPlaceholder": "@telegram_username or +998 90 123 45 67",
+      "projectType": "Project Category",
+      "projectTypePlaceholder": "Select category",
+      "message": "Project Requirements & Goals",
+      "messagePlaceholder": "Tell us about your project requirements, timeline, and key goals..."
     },
-    "submit": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! I'll get back to you soon.",
-    "error": "Something went wrong. Please try again later.",
+    "submit": "Send Project Inquiry",
+    "sending": "Submitting...",
+    "success": "Inquiry sent successfully! I will reach out to you within 24 hours.",
+    "error": "Failed to submit. Please reach out directly via Telegram or Email.",
     "validation": {
-      "nameRequired": "Name is required",
+      "nameRequired": "Please enter your name",
       "contactRequired": "Contact information is required",
-      "messageRequired": "Project description is required"
+      "messageRequired": "Please provide project details"
     }
   },
   "footer": {
     "rights": "All rights reserved.",
-    "madeWith": "Made with care"
+    "madeWith": "Maximum Efficiency & High Performance"
   }
 }

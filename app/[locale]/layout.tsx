@@ -4,6 +4,7 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {getMessages, setRequestLocale} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import Script from 'next/script';
 import '../globals.css';
 
 const nunitoSans = Nunito_Sans({
@@ -22,8 +23,11 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const meta = messages.meta as {title: string; description: string};
 
   return {
-    title: meta.title,
-    description: meta.description
+    title: 'Dilshod Zaynitdinov',
+    description: meta.description,
+    icons: {
+      icon: []
+    }
   };
 }
 
@@ -46,8 +50,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
-        <script
-          type="text/javascript"
+        <Script
+          id="theme-initializer"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var t=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.setAttribute('data-theme',t||(d?'dark':'light'))}catch(e){}})()`
           }}

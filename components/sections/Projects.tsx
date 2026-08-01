@@ -8,6 +8,7 @@ import Card from '@/components/ui/Card';
 import Badge from '@/components/ui/Badge';
 import Modal from '@/components/ui/Modal';
 import Section from '@/components/ui/Section';
+import ScrollReveal from '@/components/ui/ScrollReveal';
 
 type FilterTranslationKey = 'all' | 'web' | 'mobile' | 'bot' | 'miniApp' | 'design';
 
@@ -34,59 +35,65 @@ export default function Projects() {
 
   return (
     <Section id="projects" className="bg-[var(--bg-secondary)]">
-      <div className="mb-12 text-center">
-        <h2 className="text-3xl font-bold text-[var(--text-primary)]">
-          {t('title')}
-        </h2>
-        <p className="mt-2 text-[var(--text-secondary)]">{t('subtitle')}</p>
-      </div>
+      <ScrollReveal direction="up" delay={0}>
+        <div className="mb-12 text-center">
+          <h2 className="text-3xl font-bold text-[var(--text-primary)]">
+            {t('title')}
+          </h2>
+          <p className="mt-2 text-[var(--text-secondary)]">{t('subtitle')}</p>
+        </div>
+      </ScrollReveal>
 
-      <div className="mb-8 flex flex-wrap items-center justify-center gap-2">
-        {FILTERS.map((filter) => (
-          <button
-            key={filter}
-            onClick={() => setActiveFilter(filter)}
-            className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-              activeFilter === filter
-                ? 'bg-[var(--accent)] text-[var(--bg-primary)]'
-                : 'border border-[var(--border-default)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] hover:border-[var(--accent)] hover:text-[var(--accent)]'
-            }`}
-          >
-            {t(`filters.${filter}`)}
-          </button>
-        ))}
-      </div>
+      <ScrollReveal direction="up" delay={100}>
+        <div className="mb-8 flex flex-wrap items-center justify-center gap-2">
+          {FILTERS.map((filter) => (
+            <button
+              key={filter}
+              onClick={() => setActiveFilter(filter)}
+              className={`cursor-pointer rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                activeFilter === filter
+                  ? 'bg-[var(--accent)] text-[var(--bg-primary)]'
+                  : 'border border-[var(--border-default)] bg-[var(--bg-elevated)] text-[var(--text-secondary)] hover:border-[var(--accent)] hover:text-[var(--accent)]'
+              }`}
+            >
+              {t(`filters.${filter}`)}
+            </button>
+          ))}
+        </div>
+      </ScrollReveal>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {filtered.map((project) => (
-          <Card
-            key={project.id}
-            hover
-            onClick={() => setSelectedProject(project)}
-          >
-            <div className="mb-3 flex items-center justify-between">
-              <Badge variant="accent">
-                {t(`filters.${project.category === 'mini-app' ? 'miniApp' : project.category}`)}
-              </Badge>
-              <span className="text-xs text-[var(--text-muted)]">
-                {project.duration}
-              </span>
-            </div>
-            <h3 className="mb-2 text-lg font-semibold text-[var(--text-primary)]">
-              {project.client}
-            </h3>
-            <p className="mb-4 line-clamp-2 text-sm text-[var(--text-secondary)]">
-              {project.summary}
-            </p>
-            <div className="flex flex-wrap gap-1.5">
-              {project.stack.slice(0, 4).map((tech) => (
-                <Badge key={tech}>{tech}</Badge>
-              ))}
-              {project.stack.length > 4 && (
-                <Badge>+{project.stack.length - 4}</Badge>
-              )}
-            </div>
-          </Card>
+        {filtered.map((project, index) => (
+          <ScrollReveal key={project.id} direction="up" delay={index * 80}>
+            <Card
+              hover
+              onClick={() => setSelectedProject(project)}
+              className="h-full"
+            >
+              <div className="mb-3 flex items-center justify-between">
+                <Badge variant="accent">
+                  {t(`filters.${project.category === 'mini-app' ? 'miniApp' : project.category}`)}
+                </Badge>
+                <span className="text-xs text-[var(--text-muted)]">
+                  {project.duration}
+                </span>
+              </div>
+              <h3 className="mb-2 text-lg font-semibold text-[var(--text-primary)]">
+                {project.client}
+              </h3>
+              <p className="mb-4 line-clamp-2 text-sm text-[var(--text-secondary)]">
+                {project.summary}
+              </p>
+              <div className="flex flex-wrap gap-1.5">
+                {project.stack.slice(0, 4).map((tech) => (
+                  <Badge key={tech}>{tech}</Badge>
+                ))}
+                {project.stack.length > 4 && (
+                  <Badge>+{project.stack.length - 4}</Badge>
+                )}
+              </div>
+            </Card>
+          </ScrollReveal>
         ))}
       </div>
 
