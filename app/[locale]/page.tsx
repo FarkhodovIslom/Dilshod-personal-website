@@ -6,6 +6,8 @@ import Services from '@/components/sections/Services';
 import Projects from '@/components/sections/Projects';
 import Estimator from '@/components/sections/Estimator';
 import Process from '@/components/sections/Process';
+import Testimonials from '@/components/sections/Testimonials';
+import FAQ from '@/components/sections/FAQ';
 import ContactForm from '@/components/sections/ContactForm';
 
 type Props = {
@@ -25,6 +27,8 @@ export default async function Home({params}: Props) {
         <Projects />
         <Estimator />
         <Process />
+        <Testimonials />
+        <FAQ />
         <ContactForm />
       </main>
       <Footer />

@@ -7,6 +7,7 @@ import Input from '@/components/ui/Input';
 import Textarea from '@/components/ui/Textarea';
 import Button from '@/components/ui/Button';
 import Section from '@/components/ui/Section';
+import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function ContactForm() {
   const t = useTranslations('contact');
@@ -14,14 +15,16 @@ export default function ContactForm() {
 
   return (
     <Section id="contact">
-      <div className="mb-12 text-center">
-        <h2 className="text-3xl font-bold text-[var(--text-primary)]">
-          {t('title')}
-        </h2>
-        <p className="mt-2 text-[var(--text-secondary)]">{t('subtitle')}</p>
-      </div>
+      <ScrollReveal direction="up" delay={0}>
+        <div className="mb-12 text-center">
+          <h2 className="text-3xl font-bold text-[var(--text-primary)]">
+            {t('title')}
+          </h2>
+          <p className="mt-2 text-[var(--text-secondary)]">{t('subtitle')}</p>
+        </div>
+      </ScrollReveal>
 
-      <div className="mx-auto max-w-lg">
+      <ScrollReveal direction="up" delay={100} className="mx-auto max-w-lg">
         {state.status === 'success' && (
           <div className="mb-6 rounded-xl border border-[var(--success)] bg-[var(--accent-muted)] p-4 text-sm text-[var(--success)]">
             {t('success')}
@@ -71,7 +74,7 @@ export default function ContactForm() {
             {isPending ? t('sending') : t('submit')}
           </Button>
         </form>
-      </div>
+      </ScrollReveal>
     </Section>
   );
 }

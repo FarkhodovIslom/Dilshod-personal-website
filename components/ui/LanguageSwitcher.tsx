@@ -38,7 +38,7 @@ export default function LanguageSwitcher() {
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="flex h-9 items-center gap-1.5 rounded-lg border border-[var(--border-default)] bg-[var(--bg-elevated)] px-2.5 text-sm text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
+        className="cursor-pointer flex h-9 items-center gap-1.5 rounded-lg border border-[var(--border-default)] bg-[var(--bg-elevated)] px-2.5 text-sm text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
         aria-label="Change language"
       >
         <Globe size={16} />
@@ -50,7 +50,7 @@ export default function LanguageSwitcher() {
             <button
               key={l}
               onClick={() => handleLocaleChange(l)}
-              className={`flex w-full items-center px-3 py-2 text-left text-sm transition-colors hover:bg-[var(--accent-muted)] ${
+              className={`cursor-pointer flex w-full items-center px-3 py-2 text-left text-sm transition-colors hover:bg-[var(--accent-muted)] ${
                 l === locale
                   ? 'font-semibold text-[var(--accent)]'
                   : 'text-[var(--text-secondary)]'
